@@ -12,8 +12,8 @@ export default function Repository ({name, html_url, description}:RepoInterface)
 
       <>
       <div className='List'>
-        <a href={html_url} ><h1><span>{name}</span></h1></a>
-        <h3><span>{description}</span></h3>
+        <a href={html_url} ><h1><span className='filler'>{name}</span></h1></a>
+        <h3><span className='filler'>{description}</span></h3>
       </div>
       </>
 
